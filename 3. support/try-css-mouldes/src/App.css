@@ -1,0 +1,90 @@
+.App {
+  text-align: left;
+  margin: 0 auto;
+  /* max-width: 400px; */
+}
+
+.nav-list {
+  display: flex;
+  gap: 16px;
+  margin: 16px;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.user-name {
+  font-family: Roboto;
+  font-weight: normal;
+}
+
+.user-profile-pic {
+  height: 250px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-first-name {
+  font-weight: bold;
+  font-style: italic;
+  color: orange;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.dot-container {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.counter-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.counter-container > button {
+  font-size: 20px;
+}
+
+.user-container {
+  text-align: center;
+  padding: 16px 32px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.user-detail-container {
+  padding: 16px 32px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.user-container:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State</title>
+
+    <script src="./js/script.js">
+    </script>
+    <script type="text/babel">
+        /*
+            + state:
+                - Manage data within a component
+                - Can be updated using the setState function
+            + Props:
+                - Pass data from a parent component to a child component
+                - Cannoot be changed within a conponent
+        */
+
+
+        class TestState extends React.Component {
+            constructor(props){
+                super(props);
+                this.state = {
+                    msg: "Example of State!"
+                }
+            }
+
+            render(){
+              return <h1>{this.state.msg}</h1>  
+            }
+        }
+
+        ReactDOM.render(
+            <TestState/>,
+            document.getElementById("myApp")
+        );
+
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+
+</body>
+
+</html>

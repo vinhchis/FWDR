@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!--Javascript Compiler (toolchain)-->
+    <script crossorigin src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <title>Intro</title>
+    <script type="text/babel">
+        /*
+            - ReactDOM = virtual DOM
+            - ReactDOM.render(m, n)
+                + m : Content
+                + n: render m in to view
+            - ReactDOM.reateRoot(m)
+                + 
+        */
+        ReactDOM.render(
+            <h1>Hello, React Tutorial!</h1>,
+            document.getElementById("myApp")
+        );
+
+        // const Container = document.getElementById("myApp")
+        // const Root = ReactDOM.createRoot(Container);
+        // Root.render(<h1>Hello, React Tutorial</h1>)
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+</body>
+
+</html>
+
+<!--
+    1. import CDN
+    2. Create view (html)
+    3. React code (js)
+-->

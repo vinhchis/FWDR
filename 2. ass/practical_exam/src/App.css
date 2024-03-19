@@ -1,0 +1,79 @@
+/* Header*/
+.header-top {
+    display: flex;
+}
+
+.header-top .search-box{
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+}
+
+nav > div {
+    flex: 1 1 0;
+    width: 0;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* List View*/
+.list-view table {
+    border: 1px solid;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.list-view table th {
+    font-weight: bold;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.list-view a {
+    text-decoration: none;
+    color: rgb(67, 67, 172);
+}
+
+.list-view .link-button {
+    text-align: center;
+}
+
+
+.list-view table td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+
+/* Add Form*/
+.add-form table {
+    width: 100%;
+}
+.add-form table td {
+    padding: 10px;
+}
+
+.add-form form input {
+    width: 50%;
+}
+
+.add-form form button {
+    background-color: #4477CE;
+    padding: 10px 20px;
+    color: white;
+}

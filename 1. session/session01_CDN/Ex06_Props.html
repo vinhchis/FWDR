@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Props to Class</title>
+
+    <script src="./js/script.js">
+    </script>
+
+    <script type="text/babel">
+        class TestProps extends React.Component {
+            render() {
+                return <h1>{this.props.msg}</h1>
+            }
+        }
+
+        ReactDOM.render(
+            <TestProps msg="Example of Props to Class Component!" />,
+            document.getElementById("myApp")
+        );
+
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.hiddeForm {
+    display: none;
+}
+
+.displayForm {
+    display : block;
+}
+
+h2 {
+    text-align: center;
+}
+
+.add-form,
+.edit-form
+{
+    padding: 20px;
+    border: 1px solid rgb(99, 8, 8);
+}
+
+.add-form button,
+.edit-form button {
+    margin: 2px;
+}
+
+.list-view {
+    text-align: center;
+}

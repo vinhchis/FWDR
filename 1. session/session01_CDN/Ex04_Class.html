@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+
+    <script src="./js/script.js">
+    </script>
+    <script type="text/babel">
+        /*
+            - extends : kế thừa
+            - render() - method is used to display view
+            * 16.8 trở lên, dùng function thay thế class
+        */
+
+
+        class TestClass extends React.Component {
+            render(){
+                const display = "Example Of Components (as Class)!";
+                return <h1>{display}</h1>;
+            }
+        }
+
+        ReactDOM.render(
+            <TestClass/>,
+            document.getElementById("myApp")
+        );
+
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+
+</body>
+
+</html>

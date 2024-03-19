@@ -1,0 +1,7 @@
+[
+  {"id": "0", "code": "VN","name": "Vietnam", "capital": "Hanoi" },
+  {"id": "1", "code": "USA","name":"United States", "capital": "Washington"},
+  {"id": "2", "code": "ITL","name":"Italia", "capital": "Rome"},
+  {"id": "3", "code": "FR","name":"France", "capital": "Paris"},
+  {"id": "4", "code": "JP","name":"Japan", "capital": "Tokyo"}
+]

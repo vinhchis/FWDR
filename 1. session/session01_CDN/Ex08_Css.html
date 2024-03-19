@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+
+    <script src="./js/script.js">
+    </script>
+    <script type="text/babel">
+        const myStyle = {
+            color: 'red',
+            fontStyle: 'italic',
+            textDecoration: 'underline'
+        }
+
+        function SetStyle(props) {
+            return <h1 style={myStyle}>{props.msg}</h1>
+        }
+
+        const TestStyle = <SetStyle msg="Example of Style!"/>
+
+        ReactDOM.render(
+            TestStyle,
+            document.getElementById("myApp")
+        );
+
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+[
+  {"id": "1", "model": "Aris Pro", "brand":"Vsmart", "price": "7000"},
+  {"id": "2", "model": "Galaxy Note 9", "brand":"SamSung", "price":"11000"},
+  {"id": "3", "model": "B86", "brand":"BPhone", "price": "5000"}
+]

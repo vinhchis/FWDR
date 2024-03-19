@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Form 01</title>
+    <script src="./js/script.js"></script>
+    <script type="text/babel">
+        function GetForm() {
+            return (
+                <div className="container">
+                    <h2 style={{ textAlign: 'center' }}>Register Form</h2>
+                    <form className="form-horizontal" action="http://vnexpress.net">
+                        <div className="form-group">
+                            <label className="control-label col-lg-3" htmlFor="mail">Email:</label>
+                            <div className="col-lg-7">
+                                <input type="email" className="form-control" id="mail" name="mail" placeholder="Enter email" />
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <label className="control-label col-lg-3" htmlFor="pwd">Password:</label>
+                            <div className="col-lg-7">
+                                <input type="password" className="form-control" id="pwd" name="pwd" placeholder="Enter password" />
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <label className="control-label col-lg-3" htmlFor="rpwd">Confirmed Password:</label>
+                            <div className="col-lg-7">
+                                <input type="password" className="form-control" id="rpwd" name="rpwd" placeholder="Enter confirmed password" />
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <label className="control-label col-lg-3" htmlFor="phone">Phone:</label>
+                            <div className="col-lg-7">
+                                <input type="tel" className="form-control" id="phone" name="phone" placeholder="Enter telephone" />
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <div className="col-lg-offset-3 col-lg-7">
+                                <label className="radio-inline">
+                                    <input type="radio" id="gender" name="gender" defaultChecked />Male
+                                </label>
+                                <label className="radio-inline">
+                                    <input type="radio" id="gender" name="gender" />Female
+                                </label>
+                            </div>
+                        </div>
+                        <div className="form-group">
+                            <div className="col-lg-offset-3 col-lg-7">
+                                <button type="submit" className="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            );
+        }
+
+        ReactDOM.render(
+            <GetForm />,
+            document.getElementById("myApp")
+        );
+
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+</body>
+
+</html>

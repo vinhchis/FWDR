@@ -1,0 +1,32 @@
+[
+  {
+   "id": "1",
+   "brand": "Vinfast",
+   "model": "VF8",
+   "price": 7000
+  },
+  {
+   "id": "2",
+   "brand": "Toyota",
+   "model": "Camry 2.4Q",
+   "price": 8000
+  },
+  {
+   "id": "3",
+   "brand": "Mazda",
+   "model": "Mazda CX5",
+   "price": 7500
+  },
+  {
+   "id": "4",
+   "brand": "KIA",
+   "model": "Cerato",
+   "price": 8000
+  },
+  {
+   "id": "5",
+   "brand": "Huyndai",
+   "model": "Accent",
+   "price": 3000
+  }
+ ]

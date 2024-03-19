@@ -1,0 +1,28 @@
+.list-view {
+    border: 1px solid;
+    width: 100%;
+    /* border-collapse: collapse; */
+    text-align: center;
+}
+.list-view button {
+    width: 100px;
+}
+
+.list-view th {
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.list-view td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+
+/* List View */
+
+.btn-show {
+    width: 150px;
+    height: 50px;
+    font-size: 2em;
+}

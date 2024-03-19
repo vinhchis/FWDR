@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Props to Function</title>
+
+    <script src="./js/script.js">
+    </script>
+    <script type="text/babel">
+        /*
+           - Props arre properties to be used inside a component
+           - They act as global object or variables which can be used inside the component
+        */
+
+
+        function GetProps(props) {
+            return <h1>{props.msg}</h1>
+        }
+
+        const TestProps = <GetProps msg="Example of Props to Function Component!"/>;
+
+        ReactDOM.render(
+            TestProps,
+            document.getElementById("myApp")
+        );
+
+    </script>
+</head>
+
+<body>
+    <div id="myApp">
+
+    </div>
+
+</body>
+
+</html>
